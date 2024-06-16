@@ -39,7 +39,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Nsi.Api/Dockerfile
+          file: ./Nsi.Api/DockerFile
           push: true
           tags: sana98.azurecr.io/nsi:v${{ github.event.release.tag_name }}
           cache-from: type=local,src=/tmp/.buildx-cache
