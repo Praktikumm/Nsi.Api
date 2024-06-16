@@ -9,7 +9,7 @@ COPY ["Nsi.Api/Nsi.Api.csproj", "Nsi.Api/"]
 COPY ["Nsi.Infrastructure/Nsi.Infrastructure.csproj", "Nsi.Infrastructure/"]
 COPY ["Nsi.Application/Nsi.Application.csproj", "Nsi.Application/"]
 COPY ["Nsi.Domain/Nsi.Domain.csproj", "Nsi.Domain/"]
-RUN dotnet restore "Nsi/Nsi.Api.csproj"
+RUN dotnet restore "Nsi.Api/Nsi.Api.csproj"
 COPY . .
 WORKDIR "/src/Nsi"
 RUN dotnet build "Nsi.Api.csproj" -c Release -o /app/build
