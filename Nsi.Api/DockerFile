@@ -12,10 +12,10 @@ COPY ["Nsi.Domain/Nsi.Domain.csproj", "Nsi.Domain/"]
 RUN dotnet restore "Nsi.Api/Nsi.Api.csproj"
 COPY . .
 WORKDIR "/src/Nsi"
-RUN dotnet build "Nsi.Api.csproj" -c Release -o /app/build
+RUN dotnet build "Nsi.Api/Nsi.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Nsi.Api.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "Nsi.Api/Nsi.Api.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
