@@ -7,10 +7,29 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="MediatR" Version="12.3.0" />
-      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.2" />
-      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.38" />
-      <PackageReference Include="Riok.Mapperly" Version="3.6.0-next.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.2" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <ProjectReference Include="..\Nsi.Application\Nsi.Application.csproj" />
+        <ProjectReference Include="..\Nsi.Domain\Nsi.Domain.csproj" />
+    </ItemGroup>
+
+
+
+
+    <ItemGroup>
+      <Folder Include="Domain\Category\" />
     </ItemGroup>
 
 </Project>

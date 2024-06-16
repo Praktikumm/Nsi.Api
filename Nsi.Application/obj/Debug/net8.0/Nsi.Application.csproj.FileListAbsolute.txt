@@ -1,0 +1,16 @@
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\bin\Debug\net8.0\Nsi.Application.deps.json
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\bin\Debug\net8.0\Nsi.Application.dll
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\bin\Debug\net8.0\Nsi.Application.pdb
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\bin\Debug\net8.0\Nsi.Domain.dll
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\bin\Debug\net8.0\Nsi.Domain.pdb
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\obj\Debug\net8.0\Nsi.Application.csproj.AssemblyReference.cache
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\obj\Debug\net8.0\Nsi.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\obj\Debug\net8.0\Nsi.Application.AssemblyInfoInputs.cache
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\obj\Debug\net8.0\Nsi.Application.AssemblyInfo.cs
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\obj\Debug\net8.0\Nsi.Application.csproj.CoreCompileInputs.cache
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\obj\Debug\net8.0\Nsi.Application.sourcelink.json
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\obj\Debug\net8.0\Nsi.Application.csproj.CopyComplete
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\obj\Debug\net8.0\Nsi.Application.dll
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\obj\Debug\net8.0\refint\Nsi.Application.dll
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\obj\Debug\net8.0\Nsi.Application.pdb
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Application\obj\Debug\net8.0\ref\Nsi.Application.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Nsi.Api.props" />
+</Project>

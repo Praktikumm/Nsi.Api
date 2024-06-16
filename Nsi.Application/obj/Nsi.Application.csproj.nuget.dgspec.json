@@ -42,9 +42,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "FluentValidation": {
+            "FluentValidation.AspNetCore": {
               "target": "Package",
-              "version": "[11.9.2, )"
+              "version": "[11.3.0, )"
             },
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
@@ -54,13 +54,21 @@
               "target": "Package",
               "version": "[12.3.0, )"
             },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.4, )"
             },
-            "Microsoft.AspNetCore.Mvc.Core": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[2.1.38, )"
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             },
             "Riok.Mapperly": {
               "target": "Package",
@@ -121,21 +129,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.3.0, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Core": {
-              "target": "Package",
-              "version": "[2.1.38, )"
-            },
-            "Riok.Mapperly": {
-              "target": "Package",
-              "version": "[3.6.0-next.2, )"
             }
           },
           "imports": [

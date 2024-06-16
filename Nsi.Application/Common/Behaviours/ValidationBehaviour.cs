@@ -1,6 +1,7 @@
 ﻿using FluentValidation;
 using MediatR;
 using Nsi.Application.Common.Extentions;
+using ValidationException = Nsi.Application.Common.Exceptions.ValidationException;
 
 namespace Nsi.Application.Common.Behaviours;
 
@@ -25,7 +26,7 @@ public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TReque
             await Task.WhenAll(_validators.Select(x => x.ValidateAsync(context, cancellationToken)));
 
         var failures = validationResult.SelectMany(r => r.Errors).Where(f => f != null).ToList();
-
+        var groupFailures = failures.ToGroup();
 
         if (failures.Count != 0)
         {

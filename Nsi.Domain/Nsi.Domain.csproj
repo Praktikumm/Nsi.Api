@@ -8,10 +8,7 @@
 
 
     <ItemGroup>
-      <PackageReference Include="MediatR" Version="12.3.0" />
       <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.2" />
-      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.38" />
-      <PackageReference Include="Riok.Mapperly" Version="3.6.0-next.2" />
     </ItemGroup>
 
 </Project>

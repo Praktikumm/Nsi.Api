@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KTZdjnSMf16v4M/HhJeBNEfwx10TAFIDt1ZvfgYEljc=",
+  "Source": "Nsi.Api",
+  "BasePath": "_content/Nsi.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

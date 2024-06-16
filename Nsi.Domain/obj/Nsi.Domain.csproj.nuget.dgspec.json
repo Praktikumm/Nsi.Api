@@ -38,21 +38,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.3.0, )"
-            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Core": {
-              "target": "Package",
-              "version": "[2.1.38, )"
-            },
-            "Riok.Mapperly": {
-              "target": "Package",
-              "version": "[3.6.0-next.2, )"
             }
           },
           "imports": [

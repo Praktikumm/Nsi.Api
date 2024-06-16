@@ -1,0 +1,13 @@
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Domain\bin\Release\net8.0\Nsi.Domain.deps.json
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Domain\bin\Release\net8.0\Nsi.Domain.dll
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Domain\bin\Release\net8.0\Nsi.Domain.pdb
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Domain\obj\Release\net8.0\Nsi.Domain.csproj.AssemblyReference.cache
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Domain\obj\Release\net8.0\Nsi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Domain\obj\Release\net8.0\Nsi.Domain.AssemblyInfoInputs.cache
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Domain\obj\Release\net8.0\Nsi.Domain.AssemblyInfo.cs
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Domain\obj\Release\net8.0\Nsi.Domain.csproj.CoreCompileInputs.cache
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Domain\obj\Release\net8.0\Nsi.Domain.sourcelink.json
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Domain\obj\Release\net8.0\Nsi.Domain.dll
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Domain\obj\Release\net8.0\refint\Nsi.Domain.dll
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Domain\obj\Release\net8.0\Nsi.Domain.pdb
+D:\FAKS\Praktikum - NSI\Nsi\Nsi\Nsi.Domain\obj\Release\net8.0\ref\Nsi.Domain.dll
