@@ -5,7 +5,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["Nsi/Nsi.Api.csproj", "Nsi/"]
+COPY ["Nsi.Api/Nsi.Api.csproj", "Nsi.Api/"]
 COPY ["Nsi.Infrastructure/Nsi.Infrastructure.csproj", "Nsi.Infrastructure/"]
 COPY ["Nsi.Application/Nsi.Application.csproj", "Nsi.Application/"]
 COPY ["Nsi.Domain/Nsi.Domain.csproj", "Nsi.Domain/"]
